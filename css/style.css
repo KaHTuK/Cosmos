@@ -830,6 +830,31 @@ foreignObject {
   .info {
     padding-bottom: 50px;
   }
+  .slider_arrow {
+    cursor: none;
+    z-index: -1;
+  }
+  .slick-dots {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+  }
+
+  .slick-dots button {
+    font-size: 0;
+    width: 10px;
+    margin: 0 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #fff;
+    border: none;
+  }
+  .slick-active button {
+    background: #1a389c;
+    height: 15px;
+    width: 15px;
+  }
 }
 
 @media (max-width: 640px) {
@@ -966,10 +991,7 @@ foreignObject {
   .to-book_title {
     font-size: 23px;
   }
-  .slider_arrow {
-    cursor: none;
-    z-index: -1;
-  }
+
   .contacts_gurantees-text {
     font-size: 20px;
     line-height: 26px;
